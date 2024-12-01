@@ -4,9 +4,9 @@
 
 To implement the given logic function verify its operation in Quartus using Verilog programming.
 
-F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D 
+F1= b'd'+a'bd+abc'
 
-F2=xy’z+x’y’z+w’xy+wx’y+wxy
+F2= y'z+wy+xy
 
 **Equipment Required:**
 
@@ -17,6 +17,15 @@ Hardware – PCs, Cyclone II , USB flasher
 **Theory**
 
 **Logic Diagram**
+
+
+i)
+
+![Screenshot 2024-12-01 180608](https://github.com/user-attachments/assets/a620d906-0524-42f2-ae0e-a6d864265b8f)
+ii)
+
+![Screenshot 2024-12-01 182415](https://github.com/user-attachments/assets/35d2d1ce-6325-4180-9d6c-85f109603ec1)
+
 
 **Procedure**
 
@@ -35,7 +44,7 @@ Hardware – PCs, Cyclone II , USB flasher
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:*/
+Developed by:Rohith V RegisterNumber:24900447*/
 
 
 **RTL realization**
@@ -46,7 +55,15 @@ Developed by: RegisterNumber:*/
 
 **Timing Diagram**
 
-**Result:**
+i)
+![Screenshot (50)](https://github.com/user-attachments/assets/424dbf8d-2247-4468-9c31-3eb35b4038d8)
 
+ii)
+
+![Screenshot (51)](https://github.com/user-attachments/assets/f40b71f3-55ad-4f39-b740-0421bbdac898)
+
+
+
+**Result:**
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
